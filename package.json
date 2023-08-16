@@ -1,10 +1,12 @@
 {
-  "name": "environment",
-  "version": "1.0.1",
+  "name": "joker",
+  "version": "0.0.2",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,10 @@
     "url": "https://github.com/Martinjens/joker/issues"
   },
   "homepage": "https://github.com/Martinjens/joker#readme",
+  "devDependencies": {
+    "prettier": "^3.0.2"
+  },
   "dependencies": {
-    "one-liner-joke": "^1.2.2"
+    "give-me-a-joke": "^0.5.1"
   }
 }
