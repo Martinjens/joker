@@ -1,0 +1,22 @@
+{
+  "name": "environment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martinjens/joker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martinjens/joker/issues"
+  },
+  "homepage": "https://github.com/Martinjens/joker#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
+}
